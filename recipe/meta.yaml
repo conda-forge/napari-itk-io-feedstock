@@ -1,5 +1,5 @@
 {% set name = "napari-itk-io" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-itk-io-{{ version }}.tar.gz
-  sha256: a7e16bfe64a96d7a6af9da7186cc3c4b868be268c85ea02b13cadb64b06504eb
+  sha256: 99c9c740614585bd5051437d0516b62d72148940f814d4740c79db870ce87c82
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
   run:
     - itk >=5.2.0
     - itk-napari-conversion
-    - napari-plugin-engine >=0.1.4
+    - napari-plugin-engine >=0.2.0
     - numpy
     - python >=3.6
 
