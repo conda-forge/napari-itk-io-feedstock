@@ -1,11 +1,11 @@
-About napari-itk-io
-===================
+About napari-itk-io-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-itk-io-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/InsightSoftwareConsortium/napari-itk-io
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-itk-io-feedstock/blob/main/LICENSE.txt)
 
 Summary: File IO with itk for napari
 
