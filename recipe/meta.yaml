@@ -22,6 +22,7 @@ requirements:
   run:
     - itk >=5.2.0
     - itk-napari-conversion
+    - napari
     - napari-plugin-engine >=0.2.0
     - numpy
     - python >=3.8
@@ -31,7 +32,7 @@ test:
     - napari_itk_io
   commands:
     - pip list
-    # - pip check
+    - pip check
   requires:
     - pip
 
