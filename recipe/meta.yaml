@@ -1,13 +1,13 @@
 {% set name = "napari-itk-io" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-itk-io-{{ version }}.tar.gz
-  sha256: 95b34bdfddde4b2afe5162319445fdbcc551a59ba266c93096aaf85e9210a93e
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 13258f77a9f646f416cdda97b2bcfc7b49eb6c1aee42de54b6ff7b9cee0eb0da
 
 build:
   noarch: python
